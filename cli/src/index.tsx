@@ -7,6 +7,7 @@ function App() {
       <box justifyContent="center" alignItems="flex-end">
         <ascii-font font="tiny" text="OpenTUI" />
         <text attributes={TextAttributes.DIM}>What will you build?</text>
+        <textarea focused/>
       </box>
     </box>
   );
