@@ -1,4 +1,4 @@
-const header = () => {
+const Header = () => {
   return (
     <box justifyContent="center" alignItems="center">
         <box flexDirection="row" alignItems="center" gap={0.5} alignSelf="center">
@@ -9,4 +9,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header

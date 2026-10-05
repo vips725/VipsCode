@@ -1,11 +1,14 @@
 import { createCliRenderer, TextAttributes } from "@opentui/core";
 import { createRoot } from "@opentui/react";
-import Header from "./components/header";
+import Header from "./components/Header";
+import Status_bar from "./components/Status_bar";
+
 function App() {
   return (
     <box alignItems="center" justifyContent="center" 
     backgroundColor="#0D0D12" width="100%" height="100%">
-      <Header />
+      <Header/>
+      <Status_bar/>
       </box>
   );
 }
